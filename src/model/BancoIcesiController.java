@@ -2,15 +2,14 @@ package model;
 
 public class BancoIcesiController {
 
-     /*
-     * ATENCION !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-     * Agregue los atributos (relaciones) necesarios para satisfacer los requerimientos.
-     */
+    private Clientes[] clientes
 
     public BancoIcesiController(){
-
+        clientes = new Cliente[size];
     }
-
+    public Clientes[] getclientes() {
+        return clientes;
+    }
     /*
      * ATENCION !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
      * Los siguientes metodos estan incompletos.
@@ -20,7 +19,7 @@ public class BancoIcesiController {
      *      Agregue la logica necesaria (instrucciones) para satisfacer los requerimientos.
      */
     public void agregarCuentaCliente() {
-
+        
     }
 
    
